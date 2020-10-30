@@ -622,3 +622,12 @@ p {
   color: #8f8f8f; 
   float: right;
 }
+
+/* LOGO */
+#logo_fixe { position : fixed; left : 210px; top : 0px; }
+
+.logo
+{
+  max-width: 500px;
+  height: 80px;
+}
