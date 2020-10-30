@@ -1,3 +1,10 @@
+/*
+
+The Town
+
+https://templatemo.com/tm-525-the-town
+
+*/
 
 html {
   font-size: 18px;
@@ -123,10 +130,20 @@ a:focus {
   color: #8f8f8f;
 }
 
+/* LOGO */
+
+#logo_fixe { position : fixed; left : 210px; top : 6px; }
+
+.logo
+{
+  max-width: 500px;
+  height: 80px;
+}
+
 /* Hero */
 
 #hero {
-  background-image: url(../img/background_01.jpg);
+  background-image: url(../img/the-town-bg-01.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -413,7 +430,7 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-image: url(../img/background_02.jpg);
+  background-image: url(../img/the-town-bg-02.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 850px;
@@ -609,24 +626,58 @@ p {
     vertical-align: baseline;
 }
 
+.img-background
+{
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+}
+
 .saga
 {
-  margin-top: 7px;
-  margin-left: 30px;
-  margin-right: 20px;
-  border: 2px solid #8f8f8f;
-  margin-bottom: 10px;
-  height:140px;
+  color: #8f8f8f; 
+  float: right;
 }
 
-.saga-img
+#menu
 {
-  height: 127px;
-  float: left;
-  margin: 5px;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
-.text-saga
+/* LOGO */
+
+#logo_fixe {position: unset; left : 210px; top : 0px; }
+
+.logo
 {
-  color: #8f8f8f;
+  max-width: 500px;
+  height: 80px;
 }
+
+  @media (min-height: 830px) {
+    .logo {
+      background-position: center -210px;
+    }
+  }
+  
+  @media (min-height: 680px) and (max-height: 829px) {
+    .logo {
+      background-position: center -300px;
+    }
+  }
+  
+  @media (min-height: 500px) and (max-height: 679px) {
+    .logo {
+      background-position: center -400px;
+    }
+  }
+  
+  @media (max-height: 499px) {
+    .logo {
+      background-position: center -450px;
+    }
+  }
+  
