@@ -126,7 +126,7 @@ a:focus {
 /* Hero */
 
 #hero {
-  background-image: url(../img/the-town-bg-01.jpg);
+  background-image: url(../img/background_01.jpg);
   background-repeat: no-repeat;
   height: 100vh;
   min-height: 375px;
@@ -413,7 +413,7 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-image: url(../img/the-town-bg-02.jpg);
+  background-image: url(../img/background_02.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 850px;
@@ -609,25 +609,24 @@ p {
     vertical-align: baseline;
 }
 
-.img-background
-{
-  position: absolute;
-  bottom: 100px;
-  left: 0;
-  right: 0;
-}
-
 .saga
 {
-  color: #8f8f8f; 
-  float: right;
+  margin-top: 7px;
+  margin-left: 30px;
+  margin-right: 20px;
+  border: 2px solid #8f8f8f;
+  margin-bottom: 10px;
+  height:140px;
 }
 
-/* LOGO */
-#logo_fixe { position : fixed; left : 210px; top : 0px; }
-
-.logo
+.saga-img
 {
-  max-width: 500px;
-  height: 80px;
+  height: 127px;
+  float: left;
+  margin: 5px;
+}
+
+.text-saga
+{
+  color: #8f8f8f;
 }
