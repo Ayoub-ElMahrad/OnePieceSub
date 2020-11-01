@@ -125,11 +125,11 @@ a:focus {
 .tm-navbar.scroll .navbar-toggler-icon {
   color: #8f8f8f;
 }
+/* Hero */
 
 #hero {
   background-image: url(../img/one-piece-sunny-mille-fond-d-ecran-1680x1050-8306_5.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
   min-height: 375px;
   position: relative;
@@ -332,7 +332,7 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-image: url(../img/one-piece-sunny-mille-fond-d-ecran-1680x1050-8306_5.jpg);
+  background-image: url(C:/Users/Jad/Documents/OnepieceSub/img/one-piece-sunny-mille-fond-d-ecran-1680x1050-8306_5.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -543,15 +543,15 @@ p {
   float: right;
 }
 
-.img-fluid
+.img-eastblue
 {
   max-width: 100%;
-  height: 35%;
+
 }
 
 /* LOGO */
 
-#logo_fixe { position : unset; left : 150px; top : 50px; }
+#logo_fixe { position : unset; left : px; top : 0px; }
 
 .logo
 {
@@ -581,4 +581,17 @@ p {
   .logo {
     background-position: center -450px;
   }
+}
+
+.img-east
+{
+ max-width: 75%;
+ padding-left: 60px;
+ padding-top: 50px;
+}
+
+.img-fluid
+{
+  max-width: 100%;
+  height: auto;
 }
